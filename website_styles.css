@@ -1,0 +1,22 @@
+table, th, tr, td {
+    border: 1px solid black;
+   }
+td {
+    padding: 0 10px;
+   }
+.box {
+       background-color: red; 
+       width: 400px;
+       margin: auto;
+       font-size: 20px;
+       text-align: center;
+    }
+.box:hover{
+        background: black;
+        color:white;
+    }
+h1,h2,th, td{
+        color: black;
+        text-align: center;
+        margin: auto;
+    }
