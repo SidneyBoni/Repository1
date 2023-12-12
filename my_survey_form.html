@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="survey_styles.css">
+  <title>My Survey Form</title>
+  </head>
+  <body>
+  <h1 id="title">My Survey Form</h1>
+  <p id="description">This is a survey form created for the purpose of surveying the efficacy of survey forms.</p>
+  <form id="survey-form">
+    <label id="name-label"> Your Name * <input id="name" type="text" placeholder="Joe Mama" required /><br><br>
+  <label id="email-label"> Your Email * <input id="email" type="email" placeholder="joe.mama@gmail.com" required /><br><br>
+  <label id="number-label">Enter a number <input id="number" type="number" min="0" max="30" placeholder="420"><br><br>
+  <select id="dropdown" name="homestuckref">
+    <option value="">Select One</option>
+    <option value="Meat">Meat</option>
+    <option value="Candy">Candy</option>
+    <option value="both">Bofa</option>
+    </select><br><br>
+  <input type="radio" id="red" name="fav_color" value="red">
+  <label for="red">Red</label><br>
+  <input type="radio" id="blue" name="fav_color" value="blue">
+  <label for="blue">Blue</label><br>
+  <input type="radio" id="yellow" name="fav_color" value="yellow">
+  <label for="yellow">Yellow</label><br><br>
+<input type="checkbox" id="left" name="left" value="left">
+<label for="left">Left</label>
+<input type="checkbox" id="middle" name="middle" value="middle">
+<label for="">Middle</label>
+<input type="checkbox" id="right" name="right" value="right">
+<label for="">Right</label><br><br>
+<textarea id="comments" name="comments" placeholder="Something to say?    Do it here."></textarea>
+ <br><br><button id="submit">Submit</button>
+  </form>
+  </body>
+  </lang>
