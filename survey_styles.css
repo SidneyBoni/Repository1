@@ -1,1 +1,21 @@
-/*Add some style to this form
+/*Add some style to this form */
+#red{
+color: red;
+}
+#yellow{
+    color: yellowgreen;
+}
+#blue{
+    color: blue;
+}
+#meat{
+color: orangered;
+}
+#candy{
+    color: pink;
+}
+#bofa{
+    background-color: black;
+    color:blanchedalmond;
+    font-family: sans-serif;
+}
