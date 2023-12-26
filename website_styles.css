@@ -20,3 +20,9 @@ h1,h2,th, td{
         text-align: center;
         margin: auto;
     }
+#favtable, #numlist{
+    float: left;
+}
+#numlist{
+    padding-right:25%
+}
